@@ -7,6 +7,7 @@ import {
   carouselPosts,
   leadPost,
   rightTopPost,
+  rightBottomPost,
 } from "@/data/home.data";
 import RightSidebar from "./RightSidebar";
 
@@ -17,7 +18,7 @@ export default function HomePage() {
         <div className="grid gap-6 lg:grid-cols-12">
           <LeftSidebar latest={latestPosts} opinions={opinionPosts} />
           <CenterColumn carousel={carouselPosts} lead={leadPost} />
-          <RightSidebar top={rightTopPost} />
+          <RightSidebar top={rightTopPost} bottom={rightBottomPost} />
         </div>
       </main>
     </div>

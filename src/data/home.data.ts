@@ -147,7 +147,7 @@ export const rightTopPost: Post = {
   excerpt:
     "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life...",
   image:
-    "https://images.unsplash.com/photo-1520975682034-3b0b50b0c7be?auto=format&fit=crop&w=900&q=70",
+    "https://jnews.io/citynews/wp-content/uploads/sites/47/2018/06/demo-24-350x250.jpg",
 };
 
 export const rightBottomPost: Post = {
@@ -159,5 +159,5 @@ export const rightBottomPost: Post = {
   excerpt:
     "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life...",
   image:
-    "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=900&q=70",
+    "https://jnews.io/citynews/wp-content/uploads/sites/47/2018/06/demo-49-350x250.jpg",
 };
