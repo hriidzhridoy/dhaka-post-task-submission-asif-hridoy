@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Post } from "@/types/post";
+import { Clock } from "lucide-react";
 
 function CategoryPill({ children }: { children: React.ReactNode }) {
   return (
@@ -37,11 +38,23 @@ export default function RightCard({
             {post.title}
           </h3>
 
-          <div className="mt-2 text-xs text-neutral-500">
+          {/* Meta row */}
+          <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-neutral-500">
             {post.author ? (
-              <span className="font-semibold uppercase">{post.author}</span>
+              <span>
+                <span className="italic">by </span>
+                <span className="font-semibold uppercase text-neutral-700">
+                  {post.author}
+                </span>
+              </span>
             ) : null}
-            {post.date ? <span className="ml-2">{post.date}</span> : null}
+
+            {post.date ? (
+              <span className="inline-flex items-center gap-1">
+                <Clock size={12} className="shrink-0" />
+                <span>{post.date}</span>
+              </span>
+            ) : null}
           </div>
 
           {post.excerpt ? (
