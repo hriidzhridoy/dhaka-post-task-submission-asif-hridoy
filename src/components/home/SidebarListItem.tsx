@@ -4,16 +4,23 @@ import { Post } from "@/types/post";
 
 export default function SidebarListItem({ post }: { post: Post }) {
   return (
-    <Link href={post.href} className="group flex gap-3 border-b py-3">
-      <div className="relative h-14 w-14 bg-neutral-200">
+    <Link
+      href={post.href}
+      className="group flex items-start gap-4 border-b border-neutral-200 py-4 last:border-b-0"
+    >
+      {/* Thumbnail */}
+      <div className="relative h-16 w-20 shrink-0 overflow-hidden rounded-sm bg-neutral-200">
         <Image
           src={post.image}
           alt={post.title}
           fill
+          sizes="80px"
           className="object-cover"
         />
       </div>
-      <p className="text-sm font-semibold group-hover:underline">
+
+      {/* Title */}
+      <p className="line-clamp-3 text-sm font-semibold leading-snug text-neutral-900 group-hover:underline">
         {post.title}
       </p>
     </Link>

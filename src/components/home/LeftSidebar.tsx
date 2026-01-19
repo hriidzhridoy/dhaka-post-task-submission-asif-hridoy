@@ -1,4 +1,4 @@
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "../shared/SectionTitle";
 import SidebarListItem from "./SidebarListItem";
 import { Post } from "@/types/post";
 
@@ -20,11 +20,19 @@ export default function LeftSidebar({
 
       <div className="border bg-white p-4">
         <SectionTitle>Opinion</SectionTitle>
-        <ul className="space-y-3">
+
+        <ul className="divide-y divide-neutral-200">
           {opinions.map((o) => (
-            <li key={o.id}>
-              <a href={o.href} className="text-sm hover:underline">
-                {o.title}
+            <li key={o.id} className="py-3">
+              <a
+                href={o.href}
+                className="group flex items-start gap-3 text-sm leading-snug text-neutral-900 hover:underline"
+              >
+                {/* Arrow bullet */}
+                <span className="mt-1 text-[10px] text-neutral-600">▶</span>
+
+                {/* Title */}
+                <span>{o.title}</span>
               </a>
             </li>
           ))}
