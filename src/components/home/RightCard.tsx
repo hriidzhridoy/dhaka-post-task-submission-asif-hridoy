@@ -3,10 +3,24 @@ import Link from "next/link";
 import { Post } from "@/types/post";
 import { Clock } from "lucide-react";
 
-function CategoryPill({ children }: { children: React.ReactNode }) {
+const CATEGORY_COLORS: Record<string, string> = {
+  opinion: "bg-amber-400",
+  lifestyle: "bg-emerald-600",
+  business: "bg-blue-600",
+  politics: "bg-red-600",
+  sports: "bg-orange-500",
+  culture: "bg-purple-600",
+  national: "bg-sky-600",
+};
+
+function CategoryPill({ label }: { label: string }) {
+  const color = CATEGORY_COLORS[label.toLowerCase()] ?? "bg-neutral-700";
+
   return (
-    <span className="inline-flex items-center rounded bg-neutral-900 px-2 py-1 text-[10px] font-semibold uppercase tracking-wide text-white">
-      {children}
+    <span
+      className={`inline-flex items-center rounded px-2 py-1 text-[10px] font-semibold uppercase tracking-wide text-white ${color}`}
+    >
+      {label}
     </span>
   );
 }
@@ -29,7 +43,7 @@ export default function RightCard({
             className="object-cover"
           />
           <div className="absolute left-3 top-3">
-            <CategoryPill>{badge}</CategoryPill>
+            <CategoryPill label={badge} />
           </div>
         </div>
 
