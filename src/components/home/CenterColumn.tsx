@@ -30,7 +30,7 @@ export default function CenterColumn({ carousel, lead }: CenterColumnProps) {
             />
           </div>
           <div className="p-4">
-            <h3 className="text-base font-semibold leading-snug hover:underline">
+            <h3 className="text-base text-black font-semibold leading-snug hover:underline">
               <Link href="#">
                 Travelers gather for a golden hour meetup by the sea
               </Link>
@@ -48,7 +48,7 @@ export default function CenterColumn({ carousel, lead }: CenterColumnProps) {
             />
           </div>
           <div className="p-4">
-            <h3 className="text-base font-semibold leading-snug hover:underline">
+            <h3 className="text-base text-black font-semibold leading-snug hover:underline">
               <Link href="#">
                 Inside the modern desk setup: tools, habits, and workflow
               </Link>
