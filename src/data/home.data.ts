@@ -10,35 +10,35 @@ export const latestPosts: Post[] = [
     title: "Unconventional Workouts That Torch Fat And Sculpt Muscle",
     href: "#",
     image:
-      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=400&q=60",
+      "https://jnews.io/citynews/wp-content/uploads/sites/47/2018/06/demo-25-120x86.jpg",
   },
   {
     id: "l2",
     title: "Millions of Indigenous People May Lose Voting Rights: Alliance",
     href: "#",
     image:
-      "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=400&q=60",
+      "https://jnews.io/citynews/wp-content/uploads/sites/47/2018/06/demo-30-120x86.jpg",
   },
   {
     id: "l3",
     title: "Crismonita Dwi Putri, RI’s Track Cycling Athlete for Asian Games",
     href: "#",
     image:
-      "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=400&q=60",
+      "https://jnews.io/citynews/wp-content/uploads/sites/47/2018/06/demo-48-120x86.jpg",
   },
   {
     id: "l4",
     title: "President Joko “Jokowi” Widodo Refuses to Sign MD3 Law",
     href: "#",
     image:
-      "https://images.unsplash.com/photo-1520975958225-5f5c3a61e5f2?auto=format&fit=crop&w=400&q=60",
+      "https://jnews.io/citynews/wp-content/uploads/sites/47/2018/06/demo-32-120x86.jpg",
   },
   {
     id: "l5",
     title: "Garuda operates larger planes for Jakarta–Palembang route",
     href: "#",
     image:
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&q=60",
+      "https://jnews.io/citynews/wp-content/uploads/sites/47/2018/06/demo-33-120x86.jpg",
   },
 ];
 
