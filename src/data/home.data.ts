@@ -122,7 +122,7 @@ export const leadPost: Post = {
   excerpt:
     "When we get out of the glass bottle of our ego and when we escape like the squirrels in the...",
   image:
-    "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1200&q=70",
+    "https://jnews.io/citynews/wp-content/uploads/sites/47/2018/06/demo-34-750x375.jpg",
 };
 
 /* Bottom cards under lead story */
