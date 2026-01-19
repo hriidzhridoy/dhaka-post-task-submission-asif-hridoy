@@ -13,7 +13,9 @@ export default function CenterColumn({ carousel, lead }: CenterColumnProps) {
   return (
     <section className="lg:col-span-6 space-y-6">
       {/* Top carousel */}
-      <Carousel items={carousel} />
+      <div className="hidden sm:block">
+        <Carousel items={carousel} />
+      </div>
 
       {/* Lead story */}
       <LeadStory post={lead} />
