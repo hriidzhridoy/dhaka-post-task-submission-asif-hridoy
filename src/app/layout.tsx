@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Manrope } from "next/font/google";
 import "./globals.css";
 import SiteHeader from "@/components/shared/SiteHeader";
+import SiteFooter from "@/components/shared/SiteFooter";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -35,6 +36,7 @@ export default function RootLayout({
       <body className="font-manrope bg-white text-neutral-900">
         <SiteHeader siteTitle="THE DOWNTOWN" />
         {children}
+        <SiteFooter />
       </body>
     </html>
   );
