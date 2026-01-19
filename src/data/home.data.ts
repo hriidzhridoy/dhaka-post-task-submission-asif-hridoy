@@ -83,7 +83,7 @@ export const carouselPosts: Post[] = [
     href: "#",
     category: "Business",
     image:
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=60",
+      "https://jnews.io/citynews/wp-content/uploads/sites/47/2018/06/demo-14-1-75x75.jpg",
   },
   {
     id: "c2",
@@ -91,7 +91,7 @@ export const carouselPosts: Post[] = [
     href: "#",
     category: "National",
     image:
-      "https://images.unsplash.com/photo-1533106418989-88406c7cc8ca?auto=format&fit=crop&w=400&q=60",
+      "https://jnews.io/citynews/wp-content/uploads/sites/47/2018/06/demo-21-75x75.jpg",
   },
   {
     id: "c3",
@@ -99,7 +99,16 @@ export const carouselPosts: Post[] = [
     href: "#",
     category: "Lifestyle",
     image:
-      "https://images.unsplash.com/photo-1520975693411-6a0f6a7b3a06?auto=format&fit=crop&w=400&q=60",
+      "https://jnews.io/citynews/wp-content/uploads/sites/47/2018/06/demo-15-75x75.jpg",
+  },
+  {
+    id: "c4",
+    title:
+      "Indonesia To Offer Infrastructure Projects At IMF-World Bank Meeting",
+    href: "#",
+    category: "Lifestyle",
+    image:
+      "https://jnews.io/citynews/wp-content/uploads/sites/47/2018/07/demo-19-75x75.jpg",
   },
 ];
 
