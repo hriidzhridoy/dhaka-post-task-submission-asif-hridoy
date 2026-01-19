@@ -2,16 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Post } from "@/types/post";
 import { Clock } from "lucide-react";
-
-const CATEGORY_COLORS: Record<string, string> = {
-  opinion: "bg-amber-400",
-  lifestyle: "bg-emerald-600",
-  business: "bg-blue-600",
-  politics: "bg-red-600",
-  sports: "bg-orange-500",
-  culture: "bg-purple-600",
-  national: "bg-sky-600",
-};
+import { CATEGORY_COLORS } from "@/lib/categoryColors";
 
 function CategoryPill({ label }: { label: string }) {
   const color = CATEGORY_COLORS[label.toLowerCase()] ?? "bg-neutral-700";
